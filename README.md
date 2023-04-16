@@ -1,6 +1,6 @@
 # THM Certificate Checker
 
-The THM Certificate Checker is a Chrome Extension that allows users to quickly check the validity of TryHackMe (THM) certificates right from their browser. This lightweight and user-friendly extension eliminates the need to navigate through multiple pages or tools to verify earned certificates.
+The THM Certificate Checker is a Chrome Extension that allows users to quickly check the validity of TryHackMe (THM) certificates right on the browser. This lightweight and user-friendly extension eliminates the need to navigate through multiple pages or tools to verify earned certificates.
 
 ![THM Certificate Checker Extension](thm-certificate-checker.png)
 
