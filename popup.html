@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>THM Certificate Checker</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+      #inputContainer {
+        display: flex;
+        margin: 0 -5px;
+      }
+      #certificateID {
+        flex-grow: 1;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        background-color: #555;
+        color: #fff;
+        margin-right: 5px;
+      }
+      button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+      button:hover {
+        background-color: #3e8e41;
+      }
+      #result {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 20px;
+      }
+      a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>THM Certificate Checker</h1>
+    <p>This extension allows you to quickly check the validity of TryHackMe certificates.</p>
+    <div id="inputContainer">
+      <input id="certificateID" placeholder="Enter certificate ID"></input>
+      <button id="validateButton">Check</button>
+    </div>
+    <p id="result"></p>
+    <script src="popup.js"></script>
+    <p>Made with ❤️ by <a href="https://s4my9.github.io" target="_blank">S4MY9</a><p>
+  </body>
+</html> 
